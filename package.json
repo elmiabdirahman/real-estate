@@ -1,0 +1,26 @@
+{
+  "name": "trifid-real-estate-listings",
+  "version": "1.0.0",
+  "description": "## Technologies Used - jQuery  - Express - Node - SQL",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luketpena/trifid-real-estate-listings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luketpena/trifid-real-estate-listings/issues"
+  },
+  "homepage": "https://github.com/luketpena/trifid-real-estate-listings#readme"
+}

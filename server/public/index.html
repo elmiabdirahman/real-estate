@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Real Estate Time</title>
+    <script src="vendors/jquery.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Real Estate Time</h1>
+      <section class="btnSec">
+        <button id="showAllBtn" class="btn btn-primary">Show All</button>
+        <button id="showSaleBtn" class="btn btn-primary">Show For Sale</button>
+        <button id="showRentBtn" class="btn btn-primary">Show for Rent</button>
+      </section>
+    </header>
+
+      <section class="inputSec">
+          <input id="squareFootIn" class="house-input form-control" type="number" placeholder="Square Footage">
+          <input id="costIn" class="house-input form-control" type="number" placeholder="Cost">
+          <input id="cityIn" class="house-input form-control" type="text" placeholder="City">
+          <select name="Type" class="house-input" id="typeSel">
+              <option value="rent">Rent</option>
+              <option value="sale">Sale</option>
+          </select>
+          <select name="Image" class="house-input" id="imageSel">
+              <option value="classic-flats.jpg">Classic Flats</option>
+              <option value="haunted.png">Haunted</option>
+              <option value="older.jpg">Older</option>
+              <option value="rental.jpg">Rental</option>
+              <option value="shiny.jpg">Shiny</option>
+              <option value="stony.jpg">Stony</option>
+          </select>
+          <button id="submitBtn" class="btn btn-success">Submit Listing</button>
+      </section>
+      <section id="outputSec">
+        <div id=rent>
+
+        </div>
+        <div id=sale>
+          
+          </div>
+          <!-- Data goes here -->
+      </section>
+  </body>
+</html>
